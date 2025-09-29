@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# Script to display listening ports with PID and program names
-
-ss -tulpen
-
+# Script that displays listening ports with PID and program names
+netstat -lp
